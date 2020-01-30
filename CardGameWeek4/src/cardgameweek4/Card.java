@@ -6,7 +6,7 @@ package cardgameweek4;
  */
 //Test
 public class Card {
-    
+    	private static String Joker;
         public enum Suit {HEARTS, CLUBS,SPADES,DIAMONDS};
         public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
         private final Suit suit;
@@ -20,8 +20,9 @@ public class Card {
 	public Value getValue() {
 		return this.value;
 	}
-
-	
+	public String getJoker() {
+		return this.Joker;
+	}
 	public Suit getSuit() {
 		return this.suit;
         }
