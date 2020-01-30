@@ -4,6 +4,7 @@ package cardgameweek4;
  * To be used in Week 4.
  * @author dancye, 2019
  */
+//Test
 public class Card {
     
         public enum Suit {HEARTS, CLUBS,SPADES,DIAMONDS};
